@@ -1,0 +1,26 @@
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  align-content: center;
+  height: 50px;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-height: 450px) {
+  footer {
+    padding-top: 15px;
+  }
+  footer a {
+    font-size: 18px;
+  }
+}
+.author {
+  display: flex;
+  flex-wrap: wrap;
+}
